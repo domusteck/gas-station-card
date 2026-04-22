@@ -6,7 +6,7 @@ class FuelProV3 extends HTMLElement {
           <div id="card-title" style="padding: 16px 16px 0px 16px; text-align: center; font-size: 18px; font-weight: 500; color: var(--primary-text-color);">
             Prezzi Carburante
           </div>
-          <div id="container" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; padding: 12px;"></div>
+          <div id="container" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 12px;"></div>
         </ha-card>
       `;
       this.content = this.querySelector("#container");
@@ -16,7 +16,6 @@ class FuelProV3 extends HTMLElement {
     if (!config || !hass) return;
 
     let html = "";
-    // Ora il codice cerca QUALSIASI entità che inizi con il prefisso dato nello YAML
     for (let i = 1; i <= 20; i++) {
       const entityId = `${config.base_entity}${i}`;
       const stateObj = hass.states[entityId];
