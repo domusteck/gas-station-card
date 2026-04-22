@@ -1,4 +1,4 @@
-# ⛽ Fuel Station Card - Foggia Pro
+# ⛽ Fuel Station Card - Pro
 
 Una Custom Card per Home Assistant elegante e compatta, progettata per visualizzare i prezzi del carburante di 20 stazioni con loghi personalizzati e indicazione dell'indirizzo al click.
 
