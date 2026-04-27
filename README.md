@@ -25,9 +25,9 @@ Una Custom Card per Home Assistant elegante e compatta, progettata per visualizz
 Aggiungi una card **Manuale** e incolla il seguente codice YAML:
 
 ```yaml
-type: custom:fuel-pro-v3
-base_entity: sensor.nomecittà_stazione_
+type: custom:fuel-pro-v9
+entity_top20: sensor.carburanti_nome-città_carburante_top_20
 
 ## ex:
-type: custom:fuel-pro-v3
-base_entity: sensor.foggia_stazione_
+type: custom:fuel-pro-v9
+entity_top20: sensor.carburanti_foggia_metano_top_20
